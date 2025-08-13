@@ -1,0 +1,55 @@
+ideas = {
+	country = {
+		disablecountry = {
+			modifier = {
+				recruitable_population_factor = -1000000000 
+				research_speed_factor = -10000 # no research
+				army_speed_factor = -10000
+				ai_focus_peaceful_factor = 1
+				ai_get_ally_desire_factor = -100
+				ai_call_ally_desire_factor = -1000
+				ai_join_ally_desire_factor = -10000
+				ai_desired_divisions_factor = -1000
+				ai_focus_military_advancements_factor = -1000
+				conscription_factor = -10000
+				consumer_goods_factor = 10000
+				political_power_gain = -1000
+				monthly_population = -100000000000000
+				enemy_justify_war_goal_time = 100000000
+
+
+			}
+			rule = {
+				can_be_spymaster = no
+				can_create_collaboration_government = no
+				can_force_government = no
+				can_guarantee_other_ideologies = no		
+
+				can_boost_other_ideologies = no
+				can_boost_own_ideology = no
+				
+				can_access_market = no
+				
+				can_create_factions = no
+				can_join_factions = no
+				can_not_declare_war = yes
+
+				
+	
+				can_send_volunteers = no
+				can_puppet = no
+
+				
+			}
+			
+			picture = ENG_the_war_to_end_all_wars # hoi4 adds GFX_idea_ to the beginning of it automatically which is stupid 
+			visible = {
+				always = yes
+				
+			}
+			allowed = {
+				always = yes
+			}
+		}
+	}
+}

@@ -1,0 +1,309 @@
+## division templates
+division_template = {
+	name = "Barbarian Horde" # TODO : come up with a better name
+	regiments = { # 15 width inf with one arty.
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 0 y = 3 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		artillery_brigade = { x = 2 y = 0 }
+
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
+	}
+}
+
+# 4 units/tile on the border with WRE
+units = {
+	division = {
+		location = 11891
+		division_template = "Barbarian Horde"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 0
+		}
+
+		start_equipment_factor = 1
+		start_manpower_factor = 1
+		start_experience_factor = 0.8
+	}
+	division = {
+		location = 11891
+		division_template = "Barbarian Horde"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 0
+		}
+
+		start_equipment_factor = 1
+		start_manpower_factor = 1
+		start_experience_factor = 0.8
+	}
+	division = {
+		location = 770
+		division_template = "Barbarian Horde"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 0
+		}
+
+		start_equipment_factor = 1
+		start_manpower_factor = 1
+		start_experience_factor = 0.8
+	}
+	division = {
+		location = 770
+		division_template = "Barbarian Horde"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 0
+		}
+
+		start_equipment_factor = 1
+		start_manpower_factor = 1
+		start_experience_factor = 0.8
+	}
+	division = {
+		location = 11730
+		division_template = "Barbarian Horde"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 0
+		}
+
+		start_equipment_factor = 1
+		start_manpower_factor = 1
+		start_experience_factor = 0.8
+	}
+	division = {
+		location = 11730
+		division_template = "Barbarian Horde"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 0
+		}
+
+		start_equipment_factor = 1
+		start_manpower_factor = 1
+		start_experience_factor = 0.8
+	}
+	division = {
+		location = 3782
+		division_template = "Barbarian Horde"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 0
+		}
+
+		start_equipment_factor = 1
+		start_manpower_factor = 1
+		start_experience_factor = 0.8
+	}
+	division = {
+		location = 3782
+		division_template = "Barbarian Horde"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 0
+		}
+
+		start_equipment_factor = 1
+		start_manpower_factor = 1
+		start_experience_factor = 0.8
+	}
+	division = {
+		location = 776
+		division_template = "Barbarian Horde"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 0
+		}
+
+		start_equipment_factor = 1
+		start_manpower_factor = 1
+		start_experience_factor = 0.8
+	}
+	division = {
+		location = 776
+		division_template = "Barbarian Horde"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 0
+		}
+
+		start_equipment_factor = 1
+		start_manpower_factor = 1
+		start_experience_factor = 0.8
+	}
+	division = {
+		location = 6635
+		division_template = "Barbarian Horde"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 0
+		}
+
+		start_equipment_factor = 1
+		start_manpower_factor = 1
+		start_experience_factor = 0.8
+	}
+	division = {
+		location = 6635
+		division_template = "Barbarian Horde"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 0
+		}
+
+		start_equipment_factor = 1
+		start_manpower_factor = 1
+		start_experience_factor = 0.8
+	}
+	division = {
+		location = 11891
+		division_template = "Barbarian Horde"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 0
+		}
+
+		start_equipment_factor = 1
+		start_manpower_factor = 1
+		start_experience_factor = 0.8
+	}
+	division = {
+		location = 11891
+		division_template = "Barbarian Horde"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 0
+		}
+
+		start_equipment_factor = 1
+		start_manpower_factor = 1
+		start_experience_factor = 0.8
+	}
+	division = {
+		location = 770
+		division_template = "Barbarian Horde"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 0
+		}
+
+		start_equipment_factor = 1
+		start_manpower_factor = 1
+		start_experience_factor = 0.8
+	}
+	division = {
+		location = 770
+		division_template = "Barbarian Horde"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 0
+		}
+
+		start_equipment_factor = 1
+		start_manpower_factor = 1
+		start_experience_factor = 0.8
+	}
+	division = {
+		location = 11730
+		division_template = "Barbarian Horde"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 0
+		}
+
+		start_equipment_factor = 1
+		start_manpower_factor = 1
+		start_experience_factor = 0.8
+	}
+	division = {
+		location = 11730
+		division_template = "Barbarian Horde"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 0
+		}
+
+		start_equipment_factor = 1
+		start_manpower_factor = 1
+		start_experience_factor = 0.8
+	}
+	division = {
+		location = 3782
+		division_template = "Barbarian Horde"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 0
+		}
+
+		start_equipment_factor = 1
+		start_manpower_factor = 1
+		start_experience_factor = 0.8
+	}
+	division = {
+		location = 3782
+		division_template = "Barbarian Horde"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 0
+		}
+
+		start_equipment_factor = 1
+		start_manpower_factor = 1
+		start_experience_factor = 0.8
+	}
+	division = {
+		location = 776
+		division_template = "Barbarian Horde"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 0
+		}
+
+		start_equipment_factor = 1
+		start_manpower_factor = 1
+		start_experience_factor = 0.8
+	}
+	division = {
+		location = 776
+		division_template = "Barbarian Horde"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 0
+		}
+
+		start_equipment_factor = 1
+		start_manpower_factor = 1
+		start_experience_factor = 0.8
+	}
+	division = {
+		location = 6635
+		division_template = "Barbarian Horde"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 0
+		}
+
+		start_equipment_factor = 1
+		start_manpower_factor = 1
+		start_experience_factor = 0.8
+	}
+	division = {
+		location = 6635
+		division_template = "Barbarian Horde"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 0
+		}
+
+		start_equipment_factor = 1
+		start_manpower_factor = 1
+		start_experience_factor = 0.8
+	}
+}

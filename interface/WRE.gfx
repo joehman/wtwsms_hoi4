@@ -1,0 +1,18 @@
+spriteTypes = {
+	spriteType = {
+		name = GFX_WRE_SIGMA_MALE_COUNTRY_LEADER_PORTRAIT
+		textureFile = gfx/WREportraits/SigmaMalePortrait.dds
+	}
+}
+spriteTypes = {
+	spriteType = {
+		name = GFX_idea_wre_temporary_idea
+		textureFile = gfx/ideas/WRE_temporary_idea.dds
+	}
+}
+spriteTypes = {
+	spriteType = {
+		name = GFX_idea_wre_third_century_idea
+		textureFile = gfx/ideas/WRE_third_century.dds
+	}
+}

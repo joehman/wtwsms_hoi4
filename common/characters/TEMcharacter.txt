@@ -1,0 +1,14 @@
+characters = {
+	TEM_leader = {
+		name = TEM_leader
+		
+		portraits = {
+			civilian = {
+				large = GFX_TEM_LEADER_PORTRAIT
+			}		
+		}
+		country_leader = {
+			ideology = centrism
+		}
+	}
+}

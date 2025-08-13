@@ -1,0 +1,33 @@
+focus_tree = {
+    id = western_roman_focus_tree
+
+    country = {
+        modifier = {
+	        add = 3
+	        tag = WRE
+	    }
+    }
+
+    focus = { 
+        id = WRE_raise_army
+        x = 3
+        y = 0
+
+        cost = 4
+        
+        icon = {
+            value = GFX_placeholder # change
+        }
+        
+
+        completion_reward = {
+            WRE = {
+                country_event = {
+                    id = westRoman.2 
+                    days = 1
+                }
+            }
+        }
+    }
+
+}

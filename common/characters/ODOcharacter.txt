@@ -1,0 +1,15 @@
+characters = {
+	ODO_odoacer = {
+		name = ODO_odoacer
+		portraits = {
+			civilian = {
+				large = GFX_TEM_LEADER_PORTRAIT # TODO : change this
+												# TODO : add a portrait for military, also make odoacer a general/field marshal as well. 
+			}
+		}
+
+		country_leader = {
+			ideology = fascism_ideology
+		}
+	}
+}

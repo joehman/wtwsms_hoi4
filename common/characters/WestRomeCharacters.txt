@@ -1,0 +1,14 @@
+characters = {
+	WRE_sigma_male = {
+		name = WRE_sigma_male
+		
+		portraits = {
+			civilian = {
+				large = GFX_WRE_SIGMA_MALE_COUNTRY_LEADER_PORTRAIT
+			}		
+		}
+		country_leader = {
+			ideology = fascism_ideology
+		}
+	}
+}

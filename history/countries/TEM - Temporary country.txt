@@ -1,0 +1,27 @@
+#may be called temporary but it really isn't temporary.
+
+capital = 4 # vienna
+
+set_stability = 0
+set_war_support = 0
+set_research_slots = 0
+set_fuel = 0
+set_major = no
+
+oob = TEM_1936
+
+recruit_character = TEM_leader
+
+add_ideas = disablecountry
+
+
+set_popularities = {
+	neutrality = 100
+}
+
+
+set_politics = {
+	ruling_party = neutrality
+	election_frequency = 0
+	elections_allowed = no
+}

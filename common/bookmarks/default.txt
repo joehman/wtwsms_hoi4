@@ -1,0 +1,33 @@
+bookmarks = {
+	bookmark = {
+		name = "DEFAULT_BOOKMARK_NAME"
+		desc = "DEFAULT_BOOKMARK_DESC"
+		date = 1936.1.1.12
+		picture = "GFX_select_date_1936"
+		default_country = "WRE"
+		default = yes
+		
+		WRE = {
+			history = "WRE_DEFAULT_BOOKMARK_DESC"
+			ideology = fascism
+			ideas = {
+				WRE_aftermath_of_the_third_century
+				WRE_crippling_corruption
+				WRE_defend_the_empire			
+			}
+
+		}
+		ODO = {
+			history = "ODO_DEFAULT_BOOKMARK_DESC"
+			ideology = fascism
+			ideas = {
+				ODO_sneak_attack
+			}
+		}
+
+
+		effect = {
+			randomize_weather = 22345 # <- Obligatory in every bookmark !
+		}
+	}
+}

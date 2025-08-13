@@ -1,0 +1,36 @@
+﻿l_english:
+
+ODO_odoacer: "Odoacer"
+ODO: "Odoacer"
+
+ODO_sneak_attack: "Dagger in the Beast's Back"
+ODO_sneak_attack_desc: "Now, when the Empire is in despair we must strike! But be aware, if we do not annihilate the enemy quickly enough, we will run out of steam and our armies will crumble. After but [?ODO_worsening_interval_days] days, our condition is sure to worsen."
+
+ODO_sneak_attack_desc_1: "Our dagger has missed the heart of the beast, and it has awoken. While the war is not lost, it will very quickly be should the beast be allowed to wake any more. After but [?ODO_worsening_interval_days] days, our condition is sure to worsen."
+
+ODO_sneak_attack_desc_2: "The Beast has fully awoken from its slumber and victory is a forgone conclusion. The only thing we may hope for now is peace with the Beast. After but [?ODO_worsening_interval_days] days we will be devoured."
+
+odoacer.1.t: "Dagger in the Beast's Back"
+odoacer.1.d: "Now when the Empire is weak we have struck! But be aware, if we do not annihilate it quickly enough it will rise out of its slumber and devour us whole! In but [?ODO_worsening_interval_days] days our condition will surely worsen."
+odoacer.1.a: "We Must Win!"
+
+odoacer.2.t: "Our Condition Has Worsened!"
+odoacer.2.d: "We have failed to quickly annihilate the Romans and our soldiers are growing weary. However! Hope is not lost, the Romans are still weak from their slumber! In but [?ODO_worsening_interval_days] days our condition will surely worsen."
+odoacer.2.a: "There is still hope."
+
+odoacer.3.t: "Our Condition is Worsening!"
+odoacer.3.d: "Again we have failed to annihilate the Romans within reasonable time and now victory seems like a foregone conclusion. Perhaps peace can still be bargained for? In but [?ODO_worsening_interval_days] we will be devoured."
+odoacer.3.a: "As if! The Romans will kill us all!"
+
+odoacer.4.t: "It's over."
+odoacer.4.d: "We have totally failed to incapacitate the Roman Beast and now it will devour us all."
+odoacer.4.a: "It's joever."
+
+odoacer.5.t: "Victory!"
+odoacer.5.d: "Our dagger has successfully struck the heart of the Beast and the Roman Empire has fallen!"
+odoacer.5.a: "We Are Victorious!"
+odoacer.5.a.tt: "Remove $ODO_sneak_attack$"
+
+odoacer.6.t: "Defeat."
+odoacer.6.d: "It has become clear to both us and our armies that victory is inachievable. Our armies have fled and our leaders died."
+odoacer.6.a: "We have been devoured."

@@ -1,0 +1,44 @@
+ideas = {
+	country = {
+		WRE_aftermath_of_the_third_century ={
+			available = {
+				tag = WRE
+			}
+			modifier = {
+				political_power_factor = -0.20
+				stability_factor = -0.4
+				war_support_factor = -0.35
+				
+			}
+			
+			picture = wre_third_century_idea
+		}
+
+		WRE_crippling_corruption = { # perhaps make this into a dynamic modifier so corrruption is slowly removed
+			available = {
+				tag = WRE
+			}
+			modifier = {
+				political_power_factor = -0.15
+				stability_factor = -0.1
+				industrial_capacity_factory = -0.25
+				consumer_goods_factor = 0.2
+			}
+
+			picture = wre_temporary_idea # TODO : add new gfx
+		}
+		WRE_defend_the_empire ={
+			available = {
+				tag = WRE
+			}
+			modifier = {
+				army_org_regain = 0.15 
+				army_core_defence_factor = 0.2
+				dig_in_speed_factor = 0.5
+				max_dig_in_factor = 0.3 
+			}
+			
+			picture = wre_temporary_idea
+		}
+	}
+}

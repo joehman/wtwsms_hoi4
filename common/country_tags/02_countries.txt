@@ -1,0 +1,8 @@
+
+WRE = "countries/Western Roman Empire.txt"
+TEM = "countries/tempcountry.txt"
+ODO = "countries/odoacer.txt"
+
+FRK = "countries/franks.txt" # the franks
+SOI = "countries/soissons.txt" # soissons
+

@@ -1,0 +1,50 @@
+﻿l_english:
+
+
+WRE_sigma_male: "Sigma Male"
+
+WRE: "Western Rome"
+WRE_DEF: "Western Rome"
+WRE_ADJ: "West-Roman"
+
+WRE_democratic: "Western Roman Republic"
+WRE_democratic_DEF: "the Western Roman Republic"
+WRE_democratic_ADJ: "West-Roman Republican"
+
+WRE_fascism: "Western Roman Empire"
+WRE_fascism_DEF: "the Western Roman Empire"
+WRE_fascism_ADJ: "West-Roman Imperial"
+
+WRE_communism: "Western Roman People's Republic" 
+WRE_communism_DEF: "the Western Roman People's Republic" 
+WRE_communism_ADJ: "West-Roman Socialist"
+
+#spirits
+
+WRE_aftermath_of_the_third_century: "Aftermath of the Third Century"
+WRE_aftermath_of_the_third_century_desc: "The many wars, external as well as internal, and economic despair of the Third Century has had lasting effects, even to this very day. The people of Rome have lost confidence in the Empire's stability and are tired of the constant civil wars, and thus have lost confidence in the rulers of Rome."
+
+WRE_crippling_corruption: "Systemic Corruption"
+WRE_crippling_corruption_desc: "Ever since the days of the republic, corrruption and racketeering has existed almost as a fact of life. This cancer which the politicians of the Republic only saw profit from, and which the Emperors of today have ignored out of either their own greed or necessity, must not be allowed to exist in its current form."
+
+WRE_defend_the_empire: "Defend the Empire!"
+WRE_defend_the_empire_desc: "The Barbarian Odoacer has crossed the alps and invaded the Roman Empire! We will not let this stand! Like Hannibal before him we shall defeat the Barbarian!"
+
+#events
+westRoman.1.t: "Barbarian Invasion"
+westRoman.1.d: "Word has arrived from northern Italy: The Barbarian Odoacer has invaded! His horde marches towards Rome and must be defeated should the Western Roman Empire continue to exist."
+westRoman.1.a: "Alright."
+#
+westRoman.2.t: "The Legions Answer!"
+westRoman.2.d: "The Legions have answered, they will come to our aid! We will win!"
+westRoman.2.a: "Great."
+westRoman.2.a.tt: "Five Legionaires spawn in Rome."
+#
+westRoman.3.t: "Victory!"
+westRoman.3.d: "Like Hannibal before him, the Barbarian Odoacer has lost! We have won! The Roman Empire lives on! Our Legionaires will now disband and head back to their homes."
+westRoman.3.a: "We Have Won!"
+
+
+#focuses
+
+WRE_raise_army: "Raise the Legions"

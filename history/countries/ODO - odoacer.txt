@@ -1,0 +1,86 @@
+
+set_variable = { ODO_worsening_interval_days = 30}
+
+
+capital = 735 # Savoy
+
+
+set_stability = 0.5
+set_war_support = 0.8
+set_research_slots = 2 # not very technologically advanced
+
+recruit_character = ODO_odoacer
+
+oob = ODO_1936
+
+#ideas
+
+ODO = {
+    country_event = {
+        days = 1
+        id = odoacer.1
+    }
+    
+    add_manpower = 250000 # roughly one army, two hundred and fifty thousand men.
+}
+
+
+add_equipment_to_stockpile = {
+	type = infantry_equipment_0
+	amount = 5000
+}
+add_equipment_to_stockpile = {
+	type = artillery_equipment_1
+	amount = 1000
+}
+
+declare_war_on = {
+	target = WRE
+	type = annex_everything
+}
+
+country_event = {
+    id = odoacer.1
+    days = 1
+}
+
+set_popularities = {
+	fascism = 100
+}
+
+set_politics = {
+	ruling_party = fascism
+	election_frequency = 0
+	elections_allowed = no
+}
+set_technology = {
+	#no engineering tech
+
+    #industry
+    fuel_silos = 1
+    synth_oil_experiments = 1
+
+
+    #armor
+	gwtank = 1
+	gwtank_chassis = 1
+
+
+    #air
+    iw_small_airframe = 1
+	aa_lmg = 1
+    engines_1 = 1
+
+    #Infantry
+    support_weapons = 1
+    infantry_weapons = 1
+    tech_trucks = 1
+
+    #artillery
+    gw_artillery = 1
+    
+    #support companies
+    tech_support = 1
+    tech_engineers = 1
+    basic_train = 1
+}

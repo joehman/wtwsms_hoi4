@@ -1,0 +1,56 @@
+
+add_namespace = westRoman
+
+country_event = {
+	id = westRoman.1
+	title = westRoman.1.t
+	desc = westRoman.1.d
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	trigger = {
+		tag = WRE
+	}
+	option = {
+		name = westRoman.1.a
+	}
+}
+#raise the army
+country_event = {
+	id = westRoman.2
+	title = westRoman.2.t
+	desc = westRoman.2.d
+
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	trigger = {
+		tag = WRE
+	}
+	option = {
+		name = westRoman.2.a
+		hidden_effect = {
+			load_oob = WRE_raise_army
+		}
+		custom_effect_tooltip = westRoman.2.a.tt
+	}
+}
+#Victory
+country_event = {
+	id = westRoman.3
+	title = westRoman.3.t
+	desc = westRoman.3.d
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	trigger = {
+		tag = WRE
+	}
+	option = {
+		name = westRoman.3.a
+
+		delete_unit_template_and_units = { division_template = "Legionary Division" }
+	}
+}

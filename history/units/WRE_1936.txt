@@ -1,0 +1,114 @@
+## division templates
+division_template = {
+	name = "Legionary Division"
+	regiments = { # 3x3 inf
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+
+		infantry = { x = 0 y = 3 }
+		infantry = { x = 1 y = 3 }
+		artillery_brigade = { x = 3 y = 0}
+	}
+	support = {
+		engineer = 	{ x = 0 y = 0 }
+		artillery = { x = 0 y = 1 }
+		recon = 	{ x = 0 y = 2 }
+	}
+}
+
+division_template = {
+	name = "Auxiliary Division"
+	regiments = { #2x3 inf
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
+	}
+}
+
+units = {
+	division = {
+		location = 6788
+		division_template = "Auxiliary Division"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 0
+		}
+
+		start_equipment_factor = 1
+		start_manpower_factor = 1
+		start_experience_factor = 0.3
+	}
+	division = {
+		location = 771
+		division_template = "Auxiliary Division"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 0
+		}
+
+		start_equipment_factor = 1
+		start_manpower_factor = 1
+		start_experience_factor = 0.3
+	}
+	division = {
+		location = 11726
+		division_template = "Auxiliary Division"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 0
+		}
+
+		start_equipment_factor = 1
+		start_manpower_factor = 1
+		start_experience_factor = 0.3
+	}
+	division = {
+		location = 3780
+		division_template = "Auxiliary Division"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 0
+		}
+
+		start_equipment_factor = 1
+		start_manpower_factor = 1
+		start_experience_factor = 0.3
+	}
+	division = {
+		location = 9584
+		division_template = "Auxiliary Division"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 0
+		}
+
+		start_equipment_factor = 1
+		start_manpower_factor = 1
+		start_experience_factor = 0.3
+	}
+
+	division = {
+		location = 9904
+		division_template = "Legionary Division"
+
+		name = "Imperial Guard"
+
+		start_equipment_factor = 1
+		start_manpower_factor = 1
+		start_experience_factor = 0.6
+	}
+}
+

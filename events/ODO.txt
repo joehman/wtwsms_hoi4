@@ -1,0 +1,194 @@
+add_namespace = odoacer
+
+#1st level
+country_event = {
+	id = odoacer.1
+
+	title = odoacer.1.t
+	desc = odoacer.1.d
+
+	option = 
+	{
+		name = odoacer.1.a
+
+		ODO = {
+			country_event = {
+				days = var:ODO_worsening_interval_days
+				id = odoacer.2
+			}
+			add_ideas = {
+				ODO_sneak_attack
+			}
+		}
+	}
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	trigger = {
+		tag = ODO
+		has_war_with = WRE		
+		
+	}
+}
+
+#2nd level
+country_event = {
+	id = odoacer.2
+
+	title = odoacer.2.t
+	desc = odoacer.2.d
+
+	option = {
+		name = odoacer.2.a
+
+		ODO = {
+			country_event = {
+				days = var:ODO_worsening_interval_days
+				id = odoacer.3
+			}
+
+			swap_ideas = {
+				remove_idea = ODO_sneak_attack
+				add_idea = ODO_sneak_attack_1
+			}
+		}
+	}
+
+	fire_only_once = yes
+	is_triggered_only = yes
+	trigger = {
+		tag = ODO
+		has_war_with = WRE		
+		
+	}
+}
+
+#3rd level
+country_event = {
+	id = odoacer.3
+
+	title = odoacer.3.t
+	desc = odoacer.3.d
+
+	option = {
+		name = odoacer.3.a
+
+		ODO = {
+			country_event = {
+				days = var:ODO_worsening_interval_days
+				id = odoacer.4
+			}
+
+			swap_ideas = {
+				remove_idea = ODO_sneak_attack_1
+				add_idea = ODO_sneak_attack_2
+			}
+		}
+
+	}
+
+	fire_only_once = yes
+	is_triggered_only = yes
+	trigger = {
+		tag = ODO
+		has_war_with = WRE		
+	}
+}
+
+#4th level = 
+country_event = {
+	id = odoacer.4
+	title = odoacer.4.t
+	desc = odoacer.4.d
+
+	option = {
+		name = odoacer.4.a
+
+		ODO = {
+			swap_ideas = {
+				remove_idea = ODO_sneak_attack_2
+				add_idea = ODO_sneak_attack_3
+			}
+			country_event = {
+				id = odoacer.6
+				days = var:ODO_worsening_interval_days
+			}
+		}
+
+	}
+
+	fire_only_once = yes
+	is_triggered_only = yes
+	trigger = {
+		tag = ODO
+		has_war_with = WRE
+	}
+}
+
+#5th level = instant surrender 
+country_event = {
+	id = odoacer.6
+	title = odoacer.6.t
+	desc = odoacer.6.d
+
+	option = {
+		name = odoacer.6.a
+
+		WRE = {
+			annex_country = {
+				target = ODO
+				transfer_troops = no
+			}
+
+			country_event = {
+				id = westRoman.3
+			}
+		}
+
+	}
+
+	fire_only_once = yes
+	is_triggered_only = yes
+	trigger = {
+		tag = ODO
+		
+		has_war_with = WRE
+	}
+}
+
+#victory!
+country_event = {
+	id = odoacer.5
+	title = odoacer.5.t
+	desc = odoacer.5.d
+
+	option = {
+	    name = odoacer.5.a
+	    custom_effect_tooltip = odoacer.5.a.tt
+		 
+	    hidden_effect = {
+	        ODO = {
+	            remove_ideas = {
+	                ODO_sneak_attack
+	                ODO_sneak_attack_1
+	                ODO_sneak_attack_2
+	                ODO_sneak_attack_3
+	            }
+	        }
+		}
+
+		
+	}
+
+	fire_only_once = yes
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	trigger = {
+		tag = ODO
+		NOT = { has_war_with = WRE }
+	}
+}

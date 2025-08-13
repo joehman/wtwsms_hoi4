@@ -1,0 +1,75 @@
+ideas = {
+	country = {
+		ODO_sneak_attack = { # good
+			available = {
+				tag = ODO
+			}
+		
+			modifier = {
+				army_attack_factor = 0.5
+				army_speed_factor = 0.35
+				army_morale_factor = 0.2
+				org_loss_when_moving = -0.4
+				army_org_factor = 0.3
+			}
+
+			picture = wre_temporary_idea # TODO : add new gfx
+		}
+		ODO_sneak_attack_1 = { # meh
+			name = ODO_sneak_attack
+			available = {
+				tag = ODO
+			}
+
+			modifier = {
+				army_attack_factor = 0.25
+				army_speed_factor = 0.1
+				
+				army_morale_factor = 0.05
+
+				army_org_regain = -0.15
+				army_org_factor = 0.10
+			}
+
+
+			picture = wre_temporary_idea # TODO : add new gfx
+		}
+		ODO_sneak_attack_2 = { # bad
+			name = ODO_sneak_attack
+			available = {
+				tag = ODO
+			}
+
+			modifier = {
+				army_attack_factor = 0.05
+				army_speed_factor = 0.15
+				army_morale_factor = -0.2
+				army_org_regain = -0.2
+
+				army_attack_factor = -0.15
+			}
+
+			picture = wre_temporary_idea # TODO : add new gfx
+		}
+		ODO_sneak_attack_3 = { # surrender
+			name = ODO_sneak_attack
+			available = {
+				tag = ODO
+			}
+
+			modifier = {
+				army_attack_factor = -0.3
+				army_speed_factor = -0.1
+				army_morale_factor = -0.2
+
+				army_org_regain = -0.2
+				army_org_factor = -0.5
+
+				war_support_factor = -0.5
+			}
+
+			picture = wre_temporary_idea
+		}
+	}
+	
+}

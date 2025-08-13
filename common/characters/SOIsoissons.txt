@@ -1,0 +1,14 @@
+characters = {
+	SOI_syagarius = {
+		name = SOI_syagarius
+		
+		portraits = {
+			civilian = {
+				large = GFX_TEM_LEADER_PORTRAIT
+			}		
+		}
+		country_leader = {
+			ideology = fascism_ideology
+		}
+	}
+}
