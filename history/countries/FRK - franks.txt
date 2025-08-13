@@ -1,2 +1,2 @@
 
-capital = 977
+capital = 977 # brussels

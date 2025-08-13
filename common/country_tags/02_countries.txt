@@ -5,4 +5,5 @@ ODO = "countries/odoacer.txt"
 
 FRK = "countries/franks.txt" # the franks
 SOI = "countries/soissons.txt" # soissons
+VIS = "countries/visigoths.txt" # visigoths
 
