@@ -11,4 +11,4 @@
 
 0.2: France
 -Added Soisoin land 
--Added
+-Added Visigothic lands 
