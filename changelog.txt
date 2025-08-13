@@ -1,0 +1,12 @@
+0.1: Italy
+
+
+- Added the Western Roman Empire and leaders.
+- Added Odoacer and leaders.
+
+- Added Dagger in the Beast's back ideas and events for Odoacer.
+- Added Crippling Corruption national spirit for Western Roman Empire
+
+- Added Aftermath of the Third Century national spirit for the Western Roman Empire
+
+0.2: France
