@@ -1,1 +1,2 @@
 
+capital = 16 # ile de france (paris)
