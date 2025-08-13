@@ -8,8 +8,8 @@ state = {
 
 	history = {
 
-		owner = TEM
-		add_core_of = TEM
+		owner = SOI
+		add_core_of = SOI
 
 		victory_points = {
 			11506 50 # Paris

@@ -10,3 +10,5 @@
 - Added Aftermath of the Third Century national spirit for the Western Roman Empire
 
 0.2: France
+-Added Soisoin land 
+-Added

@@ -4,11 +4,11 @@ state={
 	name="STATE_1" # Corsica
 	manpower = 322900
 	
-	state_category = 
+	state_category = city
 	
 
 	history={
-		owner = TEM
+		owner = WRE
 		victory_points = { 3838 1 }
 		buildings = {
 			infrastructure = 2
@@ -18,7 +18,7 @@ state={
 				naval_base = 3
 			}
 		}
-		add_core_of = TEM
+		add_core_of = WRE
 	}
 
 	provinces={

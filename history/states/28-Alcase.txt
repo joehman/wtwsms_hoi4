@@ -10,7 +10,7 @@ state={
 	}
 
 	history={
-		owner = TEM
+		owner = SOI
 
 		#victory_points = { 6529 1 }
 		#victory_points = { 549 1 }
@@ -24,7 +24,7 @@ state={
 			air_base = 5
 
 		}
-		add_core_of = TEM
+		add_core_of = SOI
 	}
 
 	provinces={

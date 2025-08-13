@@ -7,9 +7,9 @@ state = {
 
 	history = {
 
-		owner = TEM
-		add_core_of = TEM
-		add_core_of = TEM
+		owner = VIS
+		add_core_of = VIS
+		add_core_of = VIS
 
 		victory_points = {
 			911 1 # Toulon

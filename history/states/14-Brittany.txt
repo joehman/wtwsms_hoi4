@@ -4,10 +4,10 @@ state={
 	name="STATE_14"
 	manpower = 2396600
 	
-	state_category = city
+	state_category = rural
 
 	history={
-		owner = TEM
+		owner = SOI
 		victory_points = {
 			3552 20
 		}
@@ -33,8 +33,8 @@ state={
 				naval_base = 1
 			}
 		}
-		add_core_of = TEM
-		add_core_of = TEM
+		add_core_of = SOI
+		add_core_of = SOI
 		1939.1.1 = {
 			buildings = {
 				dockyard = 5

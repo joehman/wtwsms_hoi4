@@ -7,7 +7,7 @@ state={
 	state_category = town
 
 	history={
-		owner = TEM
+		owner = VIS
 		victory_points = {
 			3594 3 
 		}
@@ -16,8 +16,8 @@ state={
 			industrial_complex = 1
 
 		}
-		add_core_of = TEM
-		add_core_of = TEM
+		add_core_of = VIS
+		add_core_of = VIS
 	}
 
 	provinces={
