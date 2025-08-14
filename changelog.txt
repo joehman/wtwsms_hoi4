@@ -16,6 +16,7 @@
 - Added the Kingdom of Soissons
 - Added the Visigoths
 - Added the Franks
+- Flags for Soissons, Visigoths and Franks are probably inaccurate.
 
 - Added more states for more accurate borders:
     * East Rhineland
