@@ -6,10 +6,13 @@
 
 - Added Dagger in the Beast's back ideas and events for Odoacer.
 
-- Added National Spirits for the Wester Roman Empire:
+- Added National Spirits for the Western Roman Empire:
     * Crippling Corruption
     * Aftermath of the Third Century
 
+- add more content for them later
+
+-------------------------------------------------------------------
 
 0.2: Gaul
 

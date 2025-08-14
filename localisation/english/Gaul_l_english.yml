@@ -3,6 +3,18 @@ SOI: "Soissons"
 SOI_DEF: "Soissons"
 SOI_ADJ: "Soissons"
 
+SOI_democratic: "Soissons Republic"
+SOI_democratic_DEF: "the Western Roman Republic"
+SOI_democratic_ADJ: "West-Roman Republican"
+
+SOI_fascism: "Western Roman Empire"
+SOI_fascism_DEF: "the Western Roman Empire"
+SOI_fascism_ADJ: "West-Roman Imperial"
+
+SOI_communism: "Western Roman People's Republic" 
+SOI_communism_DEF: "the Western Roman People's Republic" 
+SOI_communism_ADJ: "West-Roman Socialist"
+
 VIS: "Visiogthic Kingdom"
 VIS_DEF: "Kingdom of the Visigoths"
 VIS_ADJ: "Visigoth"
