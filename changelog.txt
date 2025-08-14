@@ -11,7 +11,7 @@
     * Aftermath of the Third Century
 
 
-0.2: France
+0.2: Gaul
 
 - Added the Kingdom of Soissons
 - Added the Visigoths
