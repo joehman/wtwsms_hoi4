@@ -1,2 +1,16 @@
 
-capital = 16 # ile de france (paris)
+capital = 16 # ile de france (paris
+
+set_popularities = {
+	neutrality = 100
+}
+
+
+
+set_politics = {
+	
+	election_frequency = 0
+	elections_allowed = no
+
+	ruling_party = neutrality 
+}

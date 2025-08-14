@@ -13,7 +13,6 @@ state = {
 
 		owner = TEM
 		add_core_of = TEM
-		add_core_of = TEM
 
 		victory_points = {
 			9517 20 #Stuttgart
@@ -29,18 +28,10 @@ state = {
 			industrial_complex = 1
 			air_base = 2
 		}
-		
-		1939.1.1 = {
-			buildings = {
-				arms_factory = 8
-				industrial_complex = 2
-			}
-		}
-
 	}
 
-	provinces = {
-		519 694 3690 6555 6581 6934 9517 9545 9655 11486 11499 13126 
+	provinces={
+		519 694 3690 6540 6555 6581 6934 9517 9545 9655 11486 11499 13126 
 	}
 	
 	buildings_max_level_factor = 1.000

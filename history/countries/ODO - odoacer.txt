@@ -17,7 +17,7 @@ oob = ODO_1936
 
 ODO = {
     country_event = {
-        days = 1
+        hours = 1
         id = odoacer.1
     }
     
@@ -43,6 +43,7 @@ country_event = {
     id = odoacer.1
     days = 1
 }
+
 
 set_popularities = {
 	fascism = 100

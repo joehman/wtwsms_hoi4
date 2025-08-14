@@ -17,10 +17,6 @@ state = {
 			}
 		}
 		add_core_of = TEM
-		add_core_of = TEM
-		add_core_of = TEM
-		start_resistance = CRO #Yugoslavia shouldn't resist occupation
-		set_compliance = 70
 
 		### CHANGED TO A MROE ROBUST SYSTEM
 		##CONTROLLED BY ITALY AT GAME START -> ITALIAN NAMES
