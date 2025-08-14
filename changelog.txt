@@ -1,13 +1,15 @@
 0.1: Italy
 
 
-- Added the Western Roman Empire and leaders.
-- Added Odoacer and leaders.
+- Added the Western Roman Empire and its leader.
+- Added Odoacer.
 
 - Added Dagger in the Beast's back ideas and events for Odoacer.
-- Added Crippling Corruption national spirit for Western Roman Empire
 
-- Added Aftermath of the Third Century national spirit for the Western Roman Empire
+- Added National Spirits for the Wester Roman Empire:
+    * Crippling Corruption
+    * Aftermath of the Third Century
+
 
 0.2: France
 
@@ -15,4 +17,12 @@
 - Added the Visigoths
 - Added the Franks
 
-- Added more states for more accurate borders
+- Added more states for more accurate borders:
+    * East Rhineland
+
+- Changed states to follow natural borders:
+    * Rhineland
+    * Gelderland
+    * Moselland
+    * Wuttemburg
+    * Upper Austria
