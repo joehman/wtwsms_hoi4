@@ -1,38 +1,19 @@
-state = {
-	id = 51
-	name = "STATE_51"
-	manpower = 6144743
-	resources = {
-		steel = 35  #was 18 #was 30 was: 54
+state={
+	id=51
+	name="STATE_51"
+	resources={
+		steel=35.000
 	}
+	provinces={
+		587 3444 3547 9522 
+	}
+	manpower=3144743
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+	local_supplies=0.000
 
-	state_category = megalopolis #was metropolis, 2 slots diff
-	
 	history = {
-
 		owner = TEM
 		add_core_of = TEM
-		add_core_of = TEM
-		add_core_of = TEM
-
-		victory_points = {
-			6469 10 # Essen
-		}
-
-		victory_points = {
-			587 5 # Köln
-		}
-		buildings = {
-			infrastructure = 4
-			arms_factory = 3
-			industrial_complex = 4 #WAS 2
-			air_base = 3
-		}
 	}
-
-	provinces = {
-		529 587 3444 3512 3547 6469 6570 9482 9522 
-	}
-	
-	local_supplies = 0.0 
 }

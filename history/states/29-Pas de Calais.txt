@@ -11,7 +11,9 @@ state={
 	}
 
 	history={
-		owner = SOI
+		owner = FRK
+		add_core_of = FRK
+		
 		victory_points = {
 			575 5
 		}
@@ -27,12 +29,6 @@ state={
 			air_base = 10
 			575 = {
 				naval_base = 6
-			}
-		}
-		add_core_of = SOI
-		1939.1.1 = {
-			buildings = {
-				industrial_complex = 6
 			}
 		}
 	}

@@ -10,5 +10,9 @@
 - Added Aftermath of the Third Century national spirit for the Western Roman Empire
 
 0.2: France
--Added Soisoin land 
--Added Visigothic lands 
+
+- Added the Kingdom of Soissons
+- Added the Visigoths
+- Added the Franks
+
+- Added more states for more accurate borders

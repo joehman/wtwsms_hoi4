@@ -1,0 +1,19 @@
+state={
+
+	id=1017
+	name="STATE_1017"
+	state_category = rural
+	
+	provinces={
+		529 3512 6469 6570 9482 
+	}
+
+	history = {
+		owner = TEM
+		add_core_of = TEM
+	}
+
+	manpower=3004743
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

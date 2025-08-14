@@ -6,16 +6,13 @@ state={
 	}
 
 	history={
-		owner = FRK
-		add_core_of = FRK
+		owner = TEM
+		add_core_of = TEM
 		victory_points = {
 			391 40 
 		}
 		victory_points = {
 			3211 10 
-		}
-		victory_points = {
-			9498 20 
 		}
 		buildings = {
 			infrastructure = 3
@@ -37,11 +34,11 @@ state={
 	}
 
 	provinces={
-		68 391 3211 3314 9498 
+		68 391 3211 3314 
 	}
 	manpower=4123000
 	buildings_max_level_factor=1.000
-	state_category=metropolis
+	state_category=city
 
 	local_supplies=0.0 
 }
