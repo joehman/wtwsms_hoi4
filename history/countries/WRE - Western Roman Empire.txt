@@ -28,7 +28,7 @@ add_equipment_to_stockpile = {
 }
 add_equipment_to_stockpile = {
     type = support_equipment_1
-    amount = 1000000
+    amount = 1000000 # probably doesn't work
 }
 
 WRE = {
