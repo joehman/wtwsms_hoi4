@@ -1,13 +1,99 @@
 
 capital = 16 # ile de france (paris
+set_convoys = 100
+set_research_slots = 3
+set_stability = 0.35
+set_war_support = 0.7
+
+
+army_experience = 65
+air_experience = 0
+navy_experience = 0
+
+#recruit Character =
+
+
+
+
+
+#ideas
+
+
+
+
+add_equipment_to_stockpile = {
+    type = infantry_equipment_1
+    amount = 10000
+
+
+}
+
+
+add_equipment_to_stockpile = { 
+  type =  artillery_equipment_1
+  amount = 600
+}    
+
+
+add_equipment_to_stockpile = {
+	type = support_equipment
+	amount = 1000
+}
+
+set_technology = { 
+ #Enginering
+electronic_mechanical_engineering = 1
+basic_fortification_tech = 1
+
+#industry
+ fuel_silos = 1
+    fuel_refining = 1
+    synth_oil_experiments = 1
+    basic_machine_tools = 1
+    construction1 = 1
+
+	 #armor
+    gwtank = 1
+    gwtank_chassis = 1
+    basic_light_tank = 1
+    basic_light_tank_chassis = 1
+
+	 #air
+    iw_small_airframe = 1
+    basic_small_airframe = 1
+    aa_lmg = 1
+    early_bombs = 1
+    engines_1 = 1
+    engines_2 = 1
+
+	 #Infantry
+    support_weapons = 1
+    infantry_weapons = 1
+    infantry_weapons1 = 1
+
+    motorised_infantry = 1
+    marines = 1
+
+    #artillery
+    gw_artillery = 1
+    interwar_artillery = 1
+
+    #support companies
+    tech_support = 1
+    tech_engineers = 1
+    basic_train = 1
+}
+
 
 set_popularities = {
-	neutrality = 100
+	neutrality = 70
+
+	communisem =30
 }
 
 set_politics = {
+	last_election = "200.01.01"
+	ruling_party = neutrality
 	election_frequency = 0
 	elections_allowed = no
-
-	ruling_party = neutrality 
 }
