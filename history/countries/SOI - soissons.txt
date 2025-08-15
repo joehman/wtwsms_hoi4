@@ -88,12 +88,12 @@ basic_fortification_tech = 1
 recruit_character = SOI_syagarius
 
 set_popularities = {
-	neutrality = 100
+    autocracy = 100
 }
 
 set_politics = {
 	last_election = "200.01.01"
-	ruling_party = neutrality
+	ruling_party = autocracy
 	election_frequency = 0
 	elections_allowed = no
 }

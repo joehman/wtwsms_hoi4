@@ -4,6 +4,10 @@ SOI: "Soissons"
 SOI_DEF: "Soissons"
 SOI_ADJ: "Soissons"
 
+SOI_autocratic: "Soissons Diocese"
+SOI_autocratic_DEF: "the Diocese of Soissons"
+SOI_autocratic_ADJ: "Soissons Diocesan"
+
 SOI_neutrality: "Soissons Diocese"
 SOI_neutrality_DEF: "the Diocese of Soissons"
 SOI_neutrality_ADJ: "Soissons Diocesan"

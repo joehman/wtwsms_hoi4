@@ -8,6 +8,10 @@ VIS_neutrality: "Visigothic Kingdom"
 VIS_neutrality_DEF: "the Visigothic Kingdom"
 VIS_neutrality_ADJ: "Visigothic Royal"
 
+VIS_autocracy: "Visigothic Kingdom"
+VIS_autocracy_DEF: "the Visigothic Kingdom"
+VIS_autocracy_ADJ: "Visigothic Royal"
+
 VIS_democratic: "Visigothic Republic"
 VIS_democratic_DEF: "the Visigothic Republic"
 VIS_democratic_ADJ: "Visigothic Republican"
@@ -21,3 +25,4 @@ VIS_communism_DEF: "the Visigothic People's Republic"
 VIS_communism_ADJ: "Visigothic Communist"
 
 VIS_euric: "Euric"
+VIS_autocracy_party: "Balt Dynasty"

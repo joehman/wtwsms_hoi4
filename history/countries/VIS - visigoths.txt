@@ -76,11 +76,11 @@ basic_fortification_tech = 1
 
 
 set_popularities = {
-  feudalism = 100
+  autocracy = 100
 }
 
 set_politics = {
-	ruling_party = feudalism
+	ruling_party = autocracy  
 	election_frequency = 0
 	elections_allowed = no
 }

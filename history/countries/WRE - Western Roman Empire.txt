@@ -83,12 +83,12 @@ set_technology = {
 
 set_popularities = {
 	democratic = 30
-	fascism = 70
+	autocracy = 70
 }
 
 set_politics = {
 	last_election = "200.01.01"
-	ruling_party = fascism
+	ruling_party = autocracy
 	election_frequency = 0
 	elections_allowed = no
 }

@@ -1,5 +1,13 @@
 ﻿l_english:
 
-monarchism: "Monarchism"
+autocracy: "Autocratic"  
+autocracy_noun: "Autocracy"
+autocracy_desc: "Unilateral rule by individual(s)."
 
-autocracy: "Autocracy"
+#subideologies for Autocracy
+monarchism: "Monarchy" # only noun form needed for subideologies 
+monarchism_desc: "Rule of and by a King"
+
+autocracy_ideology: "Autocracy"
+autocracy_ideology_desc: "Unilateral rule by individual(s)."
+

@@ -6,6 +6,10 @@ WRE: "Western Rome"
 WRE_DEF: "Western Rome"
 WRE_ADJ: "West-Roman"
 
+WRE_autocracy: "Western Roman Empire"
+WRE_autocracy_DEF: "the Western Roman Empire"
+WRE_autocracy_ADJ: "West-Roman Imperial"
+
 WRE_democratic: "Western Roman Republic"
 WRE_democratic_DEF: "the Western Roman Republic"
 WRE_democratic_ADJ: "West-Roman Republican"
@@ -17,6 +21,8 @@ WRE_fascism_ADJ: "West-Roman Imperial"
 WRE_communism: "Western Roman People's Republic" 
 WRE_communism_DEF: "the Western Roman People's Republic" 
 WRE_communism_ADJ: "West-Roman Communist"
+
+
 
 #spirits
 

@@ -10,6 +10,7 @@ army_experience = 65
 air_experience = 0
 navy_experience = 0
 
+#leader (isn't king yet but whatever)
 recruit_character = FRK_clovis
 
 
@@ -86,14 +87,11 @@ basic_fortification_tech = 1
 
 
 set_popularities = {
-	feudalism = 70
-
-	communism =30
+	autocracy = 100
 }
 
 set_politics = {
-	last_election = "200.01.01"
-	ruling_party = feudalism
+	ruling_party = autocracy
 	election_frequency = 0
 	elections_allowed = no
 }

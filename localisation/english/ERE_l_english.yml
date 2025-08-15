@@ -6,7 +6,11 @@ ERE_ADJ: "East-Roman"
 
 ERE_neutrality: "Eastern Roman Empire"
 ERE_neutrality_DEF: "The Eastern Roman Empire"
-ERE_neutrality_ADJ: "East-Roman Imperial" 
+ERE_neutrality_ADJ: "East-Roman Imperial"
+
+ERE_autocracy: "Eastern Roman Empire"
+ERE_autocracy_DEF: "The Eastern Roman Empire"
+ERE_autocracy_ADJ: "East-Roman Imperial"
 
 ERE_democratic: "Eastern Roman Senatorial Republic" 
 ERE_democratic_DEF: "The Senatorial Roman Republic"
