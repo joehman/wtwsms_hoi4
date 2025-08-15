@@ -9,7 +9,7 @@ characters = {
 		}
 
 		country_leader = {
-			ideology = fascism_ideology
+			ideology = autocracy
 		}
 	}
 }

@@ -1,0 +1,23 @@
+﻿l_english:
+
+SOI: "Soissons"
+SOI_DEF: "Soissons"
+SOI_ADJ: "Soissons"
+
+SOI_neutrality: "Soissons Diocese"
+SOI_neutrality_DEF: "the Diocese of Soissons"
+SOI_neutrality_ADJ: "Soissons Diocesan"
+
+SOI_democratic: "Soissons Republic"
+SOI_democratic_DEF: "the Republic of Soissons"
+SOI_democratic_ADJ: "Soissons Republican"
+
+SOI_fascism: "Soissons Empire"
+SOI_fascism_DEF: "the Empire of Soissons"
+SOI_fascism_ADJ: "Soissons Imperial"
+
+SOI_communism: "Soissons People's Republic" 
+SOI_communism_DEF: "the Soissons People's Republic" 
+SOI_communism_ADJ: "Soissons Communist"
+
+SOI_syagarius: "Syagarius"

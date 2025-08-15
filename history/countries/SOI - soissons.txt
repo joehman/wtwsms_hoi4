@@ -1,6 +1,8 @@
 
 capital = 16 # ile de france (paris
 
+recruit_character = SOI_syagarius
+
 set_popularities = {
 	neutrality = 100
 }

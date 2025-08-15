@@ -1,0 +1,23 @@
+﻿l_english:
+
+VIS: "Visigoths"
+VIS_DEF: "the Visigoths"
+VIS_ADJ: "Visigothic"
+
+VIS_neutrality: "Visigothic Kingdom"
+VIS_neutrality_DEF: "the Visigothic Kingdom"
+VIS_neutrality_ADJ: "Visigothic Royal"
+
+VIS_democratic: "Visigothic Republic"
+VIS_democratic_DEF: "the Visigothic Republic"
+VIS_democratic_ADJ: "Visigothic Republican"
+
+VIS_fascism: "Visigothic Empire"
+VIS_fascism_DEF: "the Visigothic Empire"
+VIS_fascism_ADJ: "Visigothic Imperial"
+
+VIS_communism: "Visigothic People's Republic" 
+VIS_communism_DEF: "the Visigothic People's Republic" 
+VIS_communism_ADJ: "Visigothic Communist"
+
+VIS_euric: "Euric"

@@ -1,6 +1,5 @@
 ﻿l_english:
 
-
 WRE_sigma_male: "Sigma Male"
 
 WRE: "Western Rome"
@@ -17,7 +16,7 @@ WRE_fascism_ADJ: "West-Roman Imperial"
 
 WRE_communism: "Western Roman People's Republic" 
 WRE_communism_DEF: "the Western Roman People's Republic" 
-WRE_communism_ADJ: "West-Roman Socialist"
+WRE_communism_ADJ: "West-Roman Communist"
 
 #spirits
 

@@ -1,0 +1,23 @@
+﻿l_english:
+
+FRK: "Franks"
+FRK_DEF: "the Franks"
+FRK_ADJ: "Frankish"
+
+FRK_neutrality: "Frankish Kingdom"
+FRK_neutrality_DEF: "the Kingdom of the Franks"
+FRK_neutrality_ADJ: "Frankish Royal"
+
+FRK_democratic: "Frankish Republic"
+FRK_democratic_DEF: "the Frankish Republic"
+FRK_democratic_ADJ: "Frankish Republican"
+
+FRK_fascism: "Frankish Empire"
+FRK_fascism_DEF: "the Frankish Empire"
+FRK_fascism_ADJ: "Frankish Imperial"
+
+FRK_communism: "Frankish People's Republic" 
+FRK_communism_DEF: "the Frankish People's Republic" 
+FRK_communism_ADJ: "Frankish Communist"
+
+FRK_clovis: "Clovis"

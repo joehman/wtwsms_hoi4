@@ -1,0 +1,16 @@
+ideologies = {
+	feudalism={
+		types = {
+			monarchism = {
+			}
+		}
+	}
+
+	neutrality = {
+		types = {
+			autocracy = {
+			}
+		}
+	}
+
+}

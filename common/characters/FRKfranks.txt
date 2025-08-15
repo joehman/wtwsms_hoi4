@@ -1,6 +1,7 @@
+
 characters = {
-	SOI_syagarius = {
-		name = SOI_syagarius
+	FRK = {
+		name = FRK_clovis
 		
 		portraits = {
 			civilian = {
@@ -8,7 +9,8 @@ characters = {
 			}		
 		}
 		country_leader = {
-			ideology = autocracy
+			ideology = monarchism
+
 		}
 	}
 }

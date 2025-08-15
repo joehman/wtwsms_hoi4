@@ -24,10 +24,7 @@ navy_experience = 0
 add_equipment_to_stockpile = {
     type = infantry_equipment_1
     amount = 10000
-
-
 }
-
 
 add_equipment_to_stockpile = { 
   type =  artillery_equipment_1
@@ -45,8 +42,8 @@ set_technology = {
 electronic_mechanical_engineering = 1
 basic_fortification_tech = 1
 
-#industry
- fuel_silos = 1
+  #industry
+  fuel_silos = 1
     fuel_refining = 1
     synth_oil_experiments = 1
     basic_machine_tools = 1
@@ -86,13 +83,10 @@ basic_fortification_tech = 1
 
 
 set_popularities = {
-	neutrality = 70
-
-	communisem =30
+  neutrality = 100
 }
 
 set_politics = {
-	last_election = "200.01.01"
 	ruling_party = neutrality
 	election_frequency = 0
 	elections_allowed = no

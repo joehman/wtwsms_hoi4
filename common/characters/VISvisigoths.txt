@@ -1,14 +1,14 @@
 characters = {
-	SOI_syagarius = {
-		name = SOI_syagarius
-		
+	VIS_syagarius = {
+		name = VIS_euric 
+
 		portraits = {
 			civilian = {
 				large = GFX_TEM_LEADER_PORTRAIT # add new graphics
 			}		
 		}
 		country_leader = {
-			ideology = autocracy
+			ideology = monarchism
 		}
 	}
 }
