@@ -10,7 +10,7 @@ army_experience = 65
 air_experience = 0
 navy_experience = 0
 
-#recruit Character =
+recruit_character = SOI_syagarius
 
 
 
@@ -88,9 +88,7 @@ basic_fortification_tech = 1
 recruit_character = SOI_syagarius
 
 set_popularities = {
-	neutrality = 70
-
-	communisem =30
+	neutrality = 100
 }
 
 set_politics = {

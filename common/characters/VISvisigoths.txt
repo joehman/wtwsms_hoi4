@@ -1,5 +1,5 @@
 characters = {
-	VIS_syagarius = {
+	VIS_euric = {
 		name = VIS_euric 
 
 		portraits = {

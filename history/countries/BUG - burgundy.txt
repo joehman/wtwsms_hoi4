@@ -1,0 +1,3 @@
+capital = 20
+
+load_oob = BUG_1936

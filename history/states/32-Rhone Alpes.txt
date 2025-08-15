@@ -12,15 +12,15 @@ state={
 	}
 
 	history={
-		owner = TEM
+		owner = BUG
 		buildings = {
 			infrastructure = 2
 		}
 		victory_points = {
 			3768 1 
 		}
-		add_core_of = TEM
-		add_core_of = TEM
+		add_core_of = BUG
+		add_core_of = BUG
 	}
 
 	provinces={

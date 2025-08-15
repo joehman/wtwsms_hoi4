@@ -1,0 +1,4 @@
+
+color = rgb { 80 59 62 } # burgundy
+graphical_culture = western_european_gfx
+graphical_culture_2d = western_european_2d

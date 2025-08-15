@@ -1,6 +1,6 @@
 
 characters = {
-	FRK = {
+	FRK_clovis = {
 		name = FRK_clovis
 		
 		portraits = {

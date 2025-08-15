@@ -10,16 +10,9 @@ army_experience = 65
 air_experience = 0
 navy_experience = 0
 
-#recruit Character =
-
-
-
-
+recruit_character = VIS_euric
 
 #ideas
-
-
-
 
 add_equipment_to_stockpile = {
     type = infantry_equipment_1
@@ -83,11 +76,11 @@ basic_fortification_tech = 1
 
 
 set_popularities = {
-  neutrality = 100
+  feudalism = 100
 }
 
 set_politics = {
-	ruling_party = neutrality
+	ruling_party = feudalism
 	election_frequency = 0
 	elections_allowed = no
 }
