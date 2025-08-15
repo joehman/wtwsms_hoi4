@@ -10,14 +10,14 @@ state={
 	state_category = city
 
 	history= {
-		owner = TEM
+		owner = ERE
 		victory_points = {
 			9833 25
 		}
 		buildings = {
 
 		}
-		add_core_of = TEM
+		add_core_of = ERE
 	}
 
 	local_supplies=0.0 

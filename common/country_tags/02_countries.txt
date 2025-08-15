@@ -8,3 +8,5 @@ SOI = "countries/soissons.txt" # soissons
 VIS = "countries/visigoths.txt" # visigoths
 
 BUG = "countries/burgundy.txt"
+
+ERE ="countries/Eastern Roman Empire.txt" 

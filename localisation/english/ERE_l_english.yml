@@ -1,0 +1,22 @@
+﻿l_english:
+
+ERE: "Eastern Rome"
+ERE_DEF: "Eastern Rome"
+ERE_ADJ: "East-Roman"
+
+ERE_neutrality: "Eastern Roman Empire"
+ERE_neutrality_DEF: "The Eastern Roman Empire"
+ERE_neutrality_ADJ: "East-Roman Imperial" 
+
+ERE_democratic: "Eastern Roman Senatorial Republic" 
+ERE_democratic_DEF: "The Senatorial Roman Republic"
+ERE_democratic_ADJ: "East-Roman Republican"
+
+ERE_fascism: "Macedonian Empire"
+ERE_fascism_DEF: "The Macedonian Empire"
+ERE_fascism_ADJ: "Macedonian"
+
+ERE_communism: "Eastern Roman People's Republic" 
+ERE_communism_DEF: "Eastern Roman People's Republic" 
+ERE_communism_ADJ: "East-Roman Communist"
+
