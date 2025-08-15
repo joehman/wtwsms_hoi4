@@ -2,28 +2,17 @@ state={
 	id=799
 	name="STATE_799"
 	provinces={
-		12029 
+		1056 1088 7140 10087 12029 12473 
 	}
-	manpower = 234379
-	
-	state_category = enclave
 
-	history= {
+
+	history = {
 		owner = TEM
 		add_core_of = TEM
-		add_core_of = TEM
-		victory_points = {
-			12029 1
-		}
-		buildings = {
-			infrastructure = 1
-		}
-
-		1938.9.30 = {
-			owner = TEM
-			controller = TUR
-		}
 	}
 
-	local_supplies=0.0 
+	manpower=234379
+	buildings_max_level_factor=1.000
+	state_category=enclave
+	local_supplies=0.000
 }

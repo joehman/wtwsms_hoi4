@@ -1,17 +1,20 @@
 state={
-	id=454
-	name="STATE_454"
-	provinces={
-		1 1015 1086 1201 4088 4206 7107 7176 11970 
-	}
+	id=1018
+	name="STATE_1018"
 
+	state_category = rural
+
+	provinces={
+		789 6991 7454 10403 10472 
+	}
+	
 	
 	history = {
 		owner = TEM
 		add_core_of = TEM
 	}
-	manpower=933142
+
+	manpower=0
 	buildings_max_level_factor=1.000
-	state_category=rural
 	local_supplies=0.000
 }

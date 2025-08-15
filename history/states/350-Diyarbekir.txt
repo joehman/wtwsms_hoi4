@@ -5,6 +5,7 @@ state={
 
 	history={
 		owner = TEM
+		add_core_of=TEM
 		victory_points = {
 			4512 5 
 		}
@@ -17,20 +18,6 @@ state={
 		buildings = {
 			infrastructure = 2
 			air_base = 2
-
-		}
-		if = {
-			limit = {
-				has_dlc = "Battle for the Bosporus"
-			}
-			add_core_of = TEM
-		}
-		if = {
-			limit = {
-				NOT = { has_dlc = "Battle for the Bosporus" }
-			}
-			add_core_of = TEM
-			add_core_of = TEM
 		}
 	}
 

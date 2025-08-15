@@ -1,31 +1,17 @@
-
 state={
 	id=553
 	name="STATE_553"
-	manpower = 1104000
-	
-	state_category = town
+	provinces={
+		792 1065 1074 1108 4111 4550 11919 
+	}
 
-	history={
+	history = {
 		owner = TEM
-		victory_points = {
-			792 5 
-		}
-		buildings = {
-			infrastructure = 2
-			industrial_complex = 1
-			air_base = 5
-			792 = {
-				naval_base = 3
-			}
-		}
-
 		add_core_of = TEM
 	}
 
-	provinces={
-		792 1108 11919 
-	}
-
-	local_supplies=0.0 
+	manpower=1104000
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
 }

@@ -4,6 +4,7 @@ state={
 
 	history={
 		owner = TEM
+		add_core_of = TEM
 		victory_points = {
 			6935 5 
 		}
