@@ -7,7 +7,7 @@ state={
 	manpower = 1042276
 
 	
-	state_category = city
+	state_category = megalopolis
 
 	history= {
 		owner = ERE

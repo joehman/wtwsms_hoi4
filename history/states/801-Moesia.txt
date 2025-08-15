@@ -3,10 +3,10 @@ state={
 	name="STATE_801"
 	manpower = 1218780
 
-	state_category=rural
+	state_category= town
 
 	history={
-		owner = TEM
+		owner = ERE
 		victory_points = { #Ruse
 			9612 3
 		}
@@ -18,7 +18,7 @@ state={
 			industrial_complex =1
 
 		}
-		add_core_of = TEM
+		add_core_of = ERE
 
 	}
 

@@ -5,10 +5,10 @@ state={
 	manpower = 1358394
 
 
-	state_category = town
+	state_category = large_town
 
 	history={
-		owner = TEM
+		owner = ERE
 		victory_points = { #Varna
 			9783 5
 		}
@@ -34,7 +34,7 @@ state={
 				naval_base = 1
 			}
 		}
-		add_core_of = TEM
+		add_core_of = ERE
 	}
 
 	provinces={

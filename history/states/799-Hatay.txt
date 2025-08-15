@@ -5,10 +5,21 @@ state={
 		1056 1088 7140 10087 12029 12473 
 	}
 
+	history= {
+		owner = ERE
+		add_core_of = ERE
+		add_core_of = ERE
+		victory_points = {
+			12029 1
+		}
+		buildings = {
+			infrastructure = 1
+		}
 
-	history = {
-		owner = TEM
-		add_core_of = TEM
+		1938.9.30 = {
+			owner = ERE
+			controller = ERE
+		}
 	}
 
 	manpower=234379
