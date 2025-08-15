@@ -4,10 +4,10 @@ state={
 	name="STATE_346"
 	manpower = 849453
 	
-	state_category = rural
+	state_category = town
 
 	history={
-		owner = TEM
+		owner = ERE
 		buildings = {
 			infrastructure = 2
 			air_base = 5
@@ -22,7 +22,7 @@ state={
 		victory_points = {
 			784 1
 		}
-		add_core_of = TEM
+		add_core_of = ERE
 	}
 
 	provinces={

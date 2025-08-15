@@ -4,14 +4,14 @@ state={
 	name="STATE_212"
 	manpower = 1814936
 	
-	state_category = large_town
+	state_category = large_city
 
 	resources={
 		chromium = 1
 	}
 
 	history={
-		owner = TEM
+		owner = ERE
 		victory_points = { #Plovdiv
 			6923 10
 		}
@@ -27,7 +27,7 @@ state={
 			industrial_complex =2
 			air_base = 2
 		}
-		add_core_of = TEM
+		add_core_of = ERE
 	}
 
 	provinces={

@@ -7,7 +7,7 @@ state = {
 	} 
 
 	history = {
-		owner = TEM
+		owner = ERE
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 1
@@ -17,9 +17,9 @@ state = {
 		victory_points = {
 			3882 5
 		}
-		add_core_of = TEM
-		add_core_of = TEM
-		add_claim_by = BUL
+		add_core_of = ERE
+		add_core_of = WRE
+		add_claim_by = WRE
 	}
 
 	provinces = {
