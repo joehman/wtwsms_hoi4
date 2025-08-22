@@ -1,0 +1,18 @@
+add_namespace = soissons
+
+country_event =  {
+	id = soissons.1
+
+	title = soissons.1.t
+	desc = soissons.1.d
+
+	is_triggered_only = yes
+	trigger = {
+		tag = WRE
+	}
+
+	option = {
+		name = soissons.1.a
+	}
+
+}

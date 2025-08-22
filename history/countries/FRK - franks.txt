@@ -13,14 +13,7 @@ navy_experience = 0
 #leader (isn't king yet but whatever)
 recruit_character = FRK_clovis
 
-
-
-
-
 #ideas
-
-
-
 
 add_equipment_to_stockpile = {
     type = infantry_equipment_1
@@ -42,24 +35,24 @@ add_equipment_to_stockpile = {
 }
 
 set_technology = { 
- #Enginering
-electronic_mechanical_engineering = 1
-basic_fortification_tech = 1
+    #Enginering
+    electronic_mechanical_engineering = 1
+    basic_fortification_tech = 1
 
-#industry
- fuel_silos = 1
+    #industry
+    fuel_silos = 1
     fuel_refining = 1
     synth_oil_experiments = 1
     basic_machine_tools = 1
     construction1 = 1
 
-	 #armor
+	  #armor
     gwtank = 1
     gwtank_chassis = 1
     basic_light_tank = 1
     basic_light_tank_chassis = 1
 
-	 #air
+	  #air
     iw_small_airframe = 1
     basic_small_airframe = 1
     aa_lmg = 1
@@ -67,13 +60,11 @@ basic_fortification_tech = 1
     engines_1 = 1
     engines_2 = 1
 
-	 #Infantry
+	  #Infantry
     support_weapons = 1
     infantry_weapons = 1
     infantry_weapons1 = 1
-
-    motorised_infantry = 1
-    marines = 1
+    tech_trucks = 1
 
     #artillery
     gw_artillery = 1
@@ -87,11 +78,11 @@ basic_fortification_tech = 1
 
 
 set_popularities = {
-	autocracy = 100
+  monarchism = 100
 }
 
 set_politics = {
-	ruling_party = autocracy
+	ruling_party = monarchism
 	election_frequency = 0
 	elections_allowed = no
 }

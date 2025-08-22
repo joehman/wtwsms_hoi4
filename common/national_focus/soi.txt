@@ -1,0 +1,32 @@
+focus_tree = {
+    id = soissons_focus_tree
+
+    country = {
+        modifier = {
+	        add = 3
+	        tag = SOI
+	    }
+    }
+
+    focus = { 
+        id = SOI_frankish_threat
+        x = 3
+        y = 0
+
+        cost = 10
+        
+        icon = {
+            value = GFX_placeholder # change
+        }
+        
+        completion_reward = {
+            SOI = {
+				add_timed_idea = {
+					days = 365
+					idea = SOI_frankish_threat	
+				}
+            }
+        }
+    }
+
+}

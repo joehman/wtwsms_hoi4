@@ -3,6 +3,8 @@
 ODO_odoacer: "Odoacer"
 ODO: "Odoacer"
 
+ODO_autocracy_party: "$ODO_odoacer$"
+
 ODO_sneak_attack: "Dagger in the Beast's Back"
 ODO_sneak_attack_desc: "Now, when the Empire is in despair we must strike! But be aware, if we do not annihilate the enemy quickly enough, we will run out of steam and our armies will crumble. After but [?ODO_worsening_interval_days] days, our condition is sure to worsen."
 

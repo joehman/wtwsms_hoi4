@@ -2,12 +2,10 @@
 
 autocracy: "Autocratic"  
 autocracy_noun: "Autocracy"
-autocracy_desc: "Unilateral rule by individual(s)."
+autocracy_desc: "Autocracy"
 
-#subideologies for Autocracy
-monarchism: "Monarchy" # only noun form needed for subideologies 
-monarchism_desc: "Rule of and by a King"
+monarchism: "Monarchism"
+monarchism_noun: "Monarchy" 
+monarchism_desc: "Monarchism"
 
-autocracy_ideology: "Autocracy"
-autocracy_ideology_desc: "Unilateral rule by individual(s)."
 

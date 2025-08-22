@@ -4,13 +4,9 @@ FRK: "Franks"
 FRK_DEF: "the Franks"
 FRK_ADJ: "Frankish"
 
-FRK_autocracy: "Frankish Kingdom"
-FRK_autocracy_DEF: "the Frankish Kingdom"
-FRK_autocracy_ADJ: "Frankish Royal"
-
-FRK_neutrality: "Frankish Kingdom"
-FRK_neutrality_DEF: "the Kingdom of the Franks"
-FRK_neutrality_ADJ: "Frankish Royal"
+FRK_monarchism: "Frankish Kingdom"
+FRK_monarchism_DEF: "the Frankish Kingdom"
+FRK_monarchism_ADJ: "Frankish Royal"
 
 FRK_democratic: "Frankish Republic"
 FRK_democratic_DEF: "the Frankish Republic"
@@ -25,4 +21,4 @@ FRK_communism_DEF: "the Frankish People's Republic"
 FRK_communism_ADJ: "Frankish Communist"
 
 FRK_clovis: "Clovis"
-FRK_autocracy_party: "Merovingian Dynasty"
+FRK_monarchism_party: "Merovingian Dynasty"

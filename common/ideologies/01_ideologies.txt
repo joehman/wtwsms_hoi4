@@ -1,8 +1,6 @@
 ideologies = {
 	autocracy={
 		types = {
-			monarchism = {
-			}
 			autocracy_ideology = {
 			}
 		}
@@ -36,5 +34,39 @@ ideologies = {
 		war_impact_on_world_tension = 0.2
 		faction_impact_on_world_tension = 0.1
 	}
+	monarchism={
+		types = {
+			monarchism_ideology = {
+			}
+		}
 
+		rules = {
+			can_create_collaboration_government = no
+			can_declare_war_on_same_ideology = yes
+			can_force_government = yes
+			can_send_volunteers = yes
+			can_puppet = yes
+			can_lower_tension = yes
+			can_only_justify_war_on_threat_country = yes
+			can_guarantee_other_ideologies = yes
+			can_boost_other_ideologies = no
+		}
+
+		modifiers = {
+			generate_wargoal_tension = 0.5
+			join_faction_tension = 0.4
+			lend_lease_tension = 0.25
+			send_volunteers_tension = 0.25
+			guarantee_tension = 0.25
+
+			embargo_cost_factor = -0.5
+			embargo_threshold_factor = -0.5
+		}
+
+		color = { 100 100 100 }
+
+		# wars are common
+		war_impact_on_world_tension = 0.2
+		faction_impact_on_world_tension = 0.1
+	}
 }

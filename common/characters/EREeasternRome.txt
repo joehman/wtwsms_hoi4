@@ -1,14 +1,15 @@
-characters = {
-	VIS_euric = {
-		name = VIS_euric 
 
+characters = {
+	ERE_Leo_1 = {
+		name = ERE_Leo_1
+		
 		portraits = {
 			civilian = {
 				large = GFX_TEM_LEADER_PORTRAIT # add new graphics
 			}		
 		}
 		country_leader = {
-			ideology = monarchism_ideology
+			ideology = autocracy_ideology
 		}
 	}
 }

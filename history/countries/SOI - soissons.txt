@@ -14,20 +14,22 @@ recruit_character = SOI_syagarius
 
 
 
-
+SOI = {
+    country_event = {
+        id = soissons.1
+        hours = 1
+    }
+}
 
 #ideas
-
+add_ideas = SOI_rump_state
 
 
 
 add_equipment_to_stockpile = {
     type = infantry_equipment_1
     amount = 10000
-
-
 }
-
 
 add_equipment_to_stockpile = { 
   type =  artillery_equipment_1

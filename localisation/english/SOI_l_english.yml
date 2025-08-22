@@ -4,13 +4,9 @@ SOI: "Soissons"
 SOI_DEF: "Soissons"
 SOI_ADJ: "Soissons"
 
-SOI_autocratic: "Soissons Diocese"
-SOI_autocratic_DEF: "the Diocese of Soissons"
-SOI_autocratic_ADJ: "Soissons Diocesan"
-
-SOI_neutrality: "Soissons Diocese"
-SOI_neutrality_DEF: "the Diocese of Soissons"
-SOI_neutrality_ADJ: "Soissons Diocesan"
+SOI_autocracy: "Soissons Diocese"
+SOI_autocracy_DEF: "the Diocese of Soissons"
+SOI_autocracy_ADJ: "Soissons Diocesan"
 
 SOI_democratic: "Soissons Republic"
 SOI_democratic_DEF: "the Republic of Soissons"
@@ -24,4 +20,26 @@ SOI_communism: "Soissons People's Republic"
 SOI_communism_DEF: "the Soissons People's Republic" 
 SOI_communism_ADJ: "Soissons Communist"
 
+SOI_autocracy_party: "Syagarius"
 SOI_syagarius: "Syagarius"
+
+#
+#IDEAS
+#
+
+SOI_rump_state: "The Rump State"
+SOI_rump_state_desc: "Long ago, we were able to rely on aid, supply and food from Rome. Today, that support has dried up. The Roman Empire, at least in the West, is on the brink of collapse and thus has ceased providing any support to its old provinces. One day, when the Roman Empire rises again, we may rest. Until then, we must hold on, and wait for its eventual return."
+
+SOI_frankish_threat: "The Frankish Threat"
+SOI_frankish_threat_desc: "The Franks sit right on our eastern border with a formidable army waiting for the right opportunity to strike. To ensure our survival against this force we must prepare for its inevitable invasion."
+
+
+#
+#EVENTS
+#
+
+
+soissons.1.t: "The State of the Empire."
+soissons.1.d: "Officially, we are a Diocese of the Roman Emprie, however in practice, that holds no weight. The Western Roman Empire is weak and unable to support us, and so functionally we are a rump state, a remnant of an Empire far past its prime. We must hold on, the Roman Empire has faced threats far stronger many times before, it shall hold on! It must! We must!"
+soissons.1.a: "We shall!"
+
