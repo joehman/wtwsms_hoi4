@@ -3,3 +3,23 @@
 BUG: "Burgundy"
 BUG_DEF: "Burgundy"
 BUG_ADJ: "Burgundian"
+
+BUG_neutrality: "Kingdom of Burgundy"
+BUG_neutrality_DEF: "The Kingdom of Burgundy"
+BUG_neutrality_ADJ: "Burgundian Royal"
+
+BUG_autocracy: "Kingdom of Burgundy"
+BUG_autocracy_DEF: "The Kingdom of Burgundy"
+BUG_autocracy_ADJ: "Burgundian Royal"
+
+BUG_democratic: "Republic of Burgundy" 
+BUG_democratic_DEF: "The Republic of Burgundy"
+BUG_democratic_ADJ: "Burgundian Republican"
+
+BUG_fascism: "Empire of Burgundy"
+BUG_fascism_DEF: "The Empire of Burgundy"
+BUG_fascism_ADJ: "Burgundian Imperial"
+
+BUG_communism: "People's Republic of Burgundy" 
+BUG_communism_DEF: "The People's Republic of Burgundy" 
+BUG_communism_ADJ: "Burgundian Communist"

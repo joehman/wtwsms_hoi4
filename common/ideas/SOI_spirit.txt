@@ -1,0 +1,27 @@
+ideas = {
+	country = {
+		SOI_rump_state = {
+			name = SOI_rump_state
+			
+			modifier = {
+				stability_factor = -0.15
+				political_power_gain = -0.5
+				recruitable_population_factor = -0.25
+			}
+
+			picture = wre_temporary_idea # todo : add gfx
+		}
+		SOI_frankish_threat = {
+			name = SOI_frankish_threat
+
+			modifier = {
+				training_time_army_factor = -0.5
+				army_core_defence_factor = 0.15
+				army_org_regain = 0.1
+				army_org_factor = 0.15
+			}
+
+			picture = wre_temporary_idea
+		}
+	}
+}

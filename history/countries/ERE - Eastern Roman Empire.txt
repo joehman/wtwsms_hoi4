@@ -1,1 +1,13 @@
 capital = 797
+
+recruit_character = ERE_Leo_1
+
+set_popularities = {
+	autocracy = 100
+}
+
+set_politics = {
+	ruling_party = autocracy
+	election_frequency = 0
+	elections_allowed = no
+}

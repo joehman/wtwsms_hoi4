@@ -1,6 +1,7 @@
+
 characters = {
-	SOI_syagarius = {
-		name = SOI_syagarius
+	ERE_Leo_1 = {
+		name = ERE_Leo_1
 		
 		portraits = {
 			civilian = {

@@ -6,6 +6,10 @@ WRE: "Western Rome"
 WRE_DEF: "Western Rome"
 WRE_ADJ: "West-Roman"
 
+WRE_autocracy: "Western Roman Empire"
+WRE_autocracy_DEF: "the Western Roman Empire"
+WRE_autocracy_ADJ: "West-Roman Imperial"
+
 WRE_democratic: "Western Roman Republic"
 WRE_democratic_DEF: "the Western Roman Republic"
 WRE_democratic_ADJ: "West-Roman Republican"
@@ -17,6 +21,8 @@ WRE_fascism_ADJ: "West-Roman Imperial"
 WRE_communism: "Western Roman People's Republic" 
 WRE_communism_DEF: "the Western Roman People's Republic" 
 WRE_communism_ADJ: "West-Roman Communist"
+
+WRE_autocracy_party: "Sigma Male"
 
 #spirits
 
@@ -37,7 +43,7 @@ westRoman.1.a: "Alright."
 westRoman.2.t: "The Legions Answer!"
 westRoman.2.d: "The Legions have answered, they will come to our aid! We will win!"
 westRoman.2.a: "Great."
-westRoman.2.a.tt: "Five Legionaires spawn in Rome."
+westRoman.2.a.tt: "Twelve Legionaires spawn in Rome."
 #
 westRoman.3.t: "Victory!"
 westRoman.3.d: "Like Hannibal before him, the Barbarian Odoacer has lost! We have won! The Roman Empire lives on! Our Legionaires will now disband and head back to their homes."

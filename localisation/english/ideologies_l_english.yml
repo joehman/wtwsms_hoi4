@@ -1,5 +1,11 @@
 ﻿l_english:
 
-monarchism: "Monarchism"
+autocracy: "Autocratic"  
+autocracy_noun: "Autocracy"
+autocracy_desc: "Autocracy"
 
-autocracy: "Autocracy"
+monarchism: "Monarchism"
+monarchism_noun: "Monarchy" 
+monarchism_desc: "Monarchism"
+
+

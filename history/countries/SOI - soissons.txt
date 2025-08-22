@@ -14,20 +14,22 @@ recruit_character = SOI_syagarius
 
 
 
-
+SOI = {
+    country_event = {
+        id = soissons.1
+        hours = 1
+    }
+}
 
 #ideas
-
+add_ideas = SOI_rump_state
 
 
 
 add_equipment_to_stockpile = {
     type = infantry_equipment_1
     amount = 10000
-
-
 }
-
 
 add_equipment_to_stockpile = { 
   type =  artillery_equipment_1
@@ -88,12 +90,12 @@ basic_fortification_tech = 1
 recruit_character = SOI_syagarius
 
 set_popularities = {
-	neutrality = 100
+    autocracy = 100
 }
 
 set_politics = {
 	last_election = "200.01.01"
-	ruling_party = neutrality
+	ruling_party = autocracy
 	election_frequency = 0
 	elections_allowed = no
 }
