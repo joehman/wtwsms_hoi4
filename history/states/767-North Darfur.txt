@@ -4,8 +4,8 @@ state=
 	name="STATE_767" # North Darfur
 	manpower = 8143
 	
-	state_category = wasteland
-	impassable = yes
+	state_category = pastoral
+	impassable = no
 	
 	history= {
 		add_core_of = TEM
