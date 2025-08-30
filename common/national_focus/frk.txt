@@ -12,14 +12,14 @@ focus_tree = {
 
 	focus = {
 		id = FRK_the_Queston_of_expansion 
-			#war goel on Soisoint
-		x = 10
+			#useless event
+		x = 0
 		y = 1
-
+		
 		cost = 5
 
 		completion_reward = {
-			
+			#pp
 		}
 
 
@@ -32,9 +32,9 @@ focus_tree = {
 		prerequisite = {
 		focus = FRK_the_Queston_of_expansion                      	
 		}
-		x=10
-		y=2
-
+		x=0
+		y=1
+		relative_position_id =FRK_the_Queston_of_expansion
 		cost = 10
 
 		id = FRK_Rallying_Support
@@ -46,11 +46,11 @@ focus_tree = {
 	} 
 	focus ={
 		prerequisite = {
-			focus = FRK_Rallying_Support
+			focus = FRK_Rallying_Support 
 		}
-
-	x=10
-	y=3
+		relative_position_id=FRK_Rallying_Support
+	x=0
+	y=1
 
 	cost=5
 
@@ -71,9 +71,9 @@ focus_tree = {
 		prerequisite = {
 			focus = FRK_Rallying_the_horde
 		}
-		x=10
-		y=4
-
+		x=0
+		y=1
+		relative_position_id=FRK_Rallying_the_horde
 		cost=5
 
 		id = FRK_organising_the_horde 
@@ -90,7 +90,28 @@ focus_tree = {
 
 	}
 
+focus = {
+	id = FRK_To_WAR
+	#wargoel on Soisoin
+	prerequisite = {
+		 
+	focus = FRK_organising_the_horde
 
+	}
+
+	x=0
+	y=1
+
+	relative_position_id = FRK_organising_the_horde 
+
+	cost=2 
+
+		icon = {
+			value = GFX_placeholder 
+		}
+
+
+	}
 
 
 
