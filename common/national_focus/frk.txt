@@ -11,22 +11,89 @@ focus_tree = {
 
 
 	focus = {
-		id = FRK_invade_soissons
-			
+		id = FRK_the_Queston_of_expansion 
+			#war goel on Soisoint
 		x = 10
 		y = 1
 
 		cost = 5
 
 		completion_reward = {
-			add_ideas = FRK_defend_against_barbarians
+			
 		}
 
 
 		icon = {
-			value = GFX_placeholder
+			value = GFX_placeholder 
 		}
 	}
 
+    focus = {
+		prerequisite = {
+		focus = FRK_the_Queston_of_expansion                      	
+		}
+		x=10
+		y=2
+
+		cost = 10
+
+		id = FRK_Rallying_Support
+         #stability/warsupport
+
+		icon = {
+			value = GFX_placeholder 
+		}
+	} 
+	focus ={
+		prerequisite = {
+			focus = FRK_Rallying_Support
+		}
+
+	x=10
+	y=3
+
+	cost=5
+
+		id = FRK_Rallying_the_horde
+	 	#Manpower/Divisions(Militia) 
+
+
+			icon = {
+			value = GFX_placeholder 
+		}
+
+
+
+
+
+	}
+	focus = {
+		prerequisite = {
+			focus = FRK_Rallying_the_horde
+		}
+		x=10
+		y=4
+
+		cost=5
+
+		id = FRK_organising_the_horde 
+		#Buffs/Equipment 
+
+		icon = {
+			value = GFX_placeholder 
+		}
+
+
+
+
+
+
+	}
+
+
+
+
 
 }
+
+	

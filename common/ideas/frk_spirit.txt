@@ -1,16 +1,17 @@
 ideas = {
 	country = {
 
-		FRK_defend_against_barbarians = {
+		FRK_organising_the_horde = {
 			available = {
 				tag = FRK
 			}
 
 			modifier = {
-				army_attack_factor = 0.15
+				army_attack_factor = 0.30 
 			}
 
 
 		}
 	}
 }
+
