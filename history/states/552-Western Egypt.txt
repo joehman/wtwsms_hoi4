@@ -4,16 +4,16 @@ state={
 	name="STATE_552"
 	manpower = 18539
 	
-	state_category = wasteland
-	impassable = yes
+	state_category = rural
+	impassable = no
 
 	history={
-		owner = TEM
+		owner = ERE
 		buildings = {
-			infrastructure = 0
+			infrastructure = 1
 		}
 
-		add_core_of = TEM
+		add_core_of = ERE
 
 	}
 
