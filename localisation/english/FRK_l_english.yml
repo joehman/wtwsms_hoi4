@@ -22,3 +22,8 @@ FRK_communism_ADJ: "Frankish Communist"
 
 FRK_clovis: "Clovis"
 FRK_monarchism_party: "Merovingian Dynasty"
+
+#
+# Focus
+#
+FRK_invade_soissons: "invade soissons"

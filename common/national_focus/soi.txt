@@ -8,9 +8,26 @@ focus_tree = {
 	    }
     }
 
+    ## Recover ##
+    focus = {
+        id = SOI_Standing_on_our_own
+
+        x = 5
+        y = 0
+
+        cost = 5
+
+        icon = {
+            value = GFX_placeholder # change
+        }
+    }
+
+
+
+    ## Army ##
     focus = { 
         id = SOI_frankish_threat
-        x = 3
+        x = 20
         y = 0
 
         cost = 10
@@ -28,5 +45,7 @@ focus_tree = {
             }
         }
     }
+
+
 
 }

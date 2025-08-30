@@ -7,8 +7,7 @@ country_event = {
 	title = odoacer.1.t
 	desc = odoacer.1.d
 
-	option = 
-	{
+	option = {
 		name = odoacer.1.a
 
 		ODO = {

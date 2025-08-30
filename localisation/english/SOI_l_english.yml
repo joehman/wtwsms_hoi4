@@ -30,14 +30,20 @@ SOI_syagarius: "Syagarius"
 SOI_rump_state: "The Rump State"
 SOI_rump_state_desc: "Long ago, we were able to rely on aid, supply and food from Rome. Today, that support has dried up. The Roman Empire, at least in the West, is on the brink of collapse and thus has ceased providing any support to its old provinces. One day, when the Roman Empire rises again, we may rest. Until then, we must hold on, and wait for its eventual return."
 
-SOI_frankish_threat: "The Frankish Threat"
-SOI_frankish_threat_desc: "The Franks sit right on our eastern border with a formidable army waiting for the right opportunity to strike. To ensure our survival against this force we must prepare for its inevitable invasion."
+#
+# FOCUS
+#
 
+SOI_frankish_threat: "The Barbarian Threat"
+SOI_frankish_threat_desc: "The Franks, Visigoths and other tribes sit right on our eastern border with a formidable army waiting for the right opportunity to strike. To ensure our survival against this force we must prepare for its inevitable invasion."
+
+
+SOI_Standing_on_our_own: "Standing on Our Own"
+SOI_Standing_on_our_own_desc: "The Roman Empire has ceased their aid to us and thus we must learn how to stand on our own two feet."
 
 #
 #EVENTS
 #
-
 
 soissons.1.t: "The State of the Empire."
 soissons.1.d: "Officially, we are a Diocese of the Roman Emprie, however in practice, that holds no weight. The Western Roman Empire is weak and unable to support us, and so functionally we are a rump state, a remnant of an Empire far past its prime. We must hold on, the Roman Empire has faced threats far stronger many times before, it shall hold on! It must! We must!"

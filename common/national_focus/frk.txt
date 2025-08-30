@@ -1,0 +1,32 @@
+focus_tree = { 
+
+	id = franks_focus_tree
+
+	country = {
+		modifier = {
+			add = 1
+			tag = FRK
+		}
+	}
+
+
+	focus = {
+		id = FRK_invade_soissons
+			
+		x = 10
+		y = 1
+
+		cost = 5
+
+		completion_reward = {
+			add_ideas = FRK_defend_against_barbarians
+		}
+
+
+		icon = {
+			value = GFX_placeholder
+		}
+	}
+
+
+}

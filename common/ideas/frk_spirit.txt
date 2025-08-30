@@ -1,0 +1,16 @@
+ideas = {
+	country = {
+
+		FRK_defend_against_barbarians = {
+			available = {
+				tag = FRK
+			}
+
+			modifier = {
+				army_attack_factor = 0.15
+			}
+
+
+		}
+	}
+}
