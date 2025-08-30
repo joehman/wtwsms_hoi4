@@ -1,3 +1,9 @@
+#1st year: buildup
+
+#2nd year: war
+
+#3rd year: second buildup
+
 focus_tree = {
     id = soissons_focus_tree
 
@@ -22,12 +28,61 @@ focus_tree = {
         }
     }
 
+    focus = {
+        id = SOI_Recover_Army
+
+        x = -2
+        y = 1
+
+        relative_position_id = SOI_Standing_on_our_own
+
+        prerequisite = {
+            focus = SOI_Standing_on_our_own 
+        }
+        
+        icon = {
+            value = GFX_placeholder
+        }
+    }
+
+    focus = {
+        id = SOI_Recover_Government
+
+        x = 0
+        y = 1
+
+        relative_position_id = SOI_Standing_on_our_own
+
+        prerequisite = {
+            focus = SOI_Standing_on_our_own 
+        }
+        
+        icon = {
+            value = GFX_placeholder
+        }
+    }
+    focus = {
+        id = SOI_Recover_Industry
+
+        x = 2
+        y = 1
+
+        relative_position_id = SOI_Standing_on_our_own
+
+        prerequisite = {
+            focus = SOI_Standing_on_our_own 
+        }
+        
+        icon = {
+            value = GFX_placeholder
+        }
+    }
 
 
     ## Army ##
     focus = { 
         id = SOI_frankish_threat
-        x = 20
+        x = 13
         y = 0
 
         cost = 10
@@ -36,6 +91,10 @@ focus_tree = {
             value = GFX_placeholder # change
         }
         
+        prerequisite = {
+            
+        }
+
         completion_reward = {
             SOI = {
 				add_timed_idea = {
