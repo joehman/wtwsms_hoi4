@@ -11,9 +11,8 @@ focus_tree = {
 
 
 	focus = {
-		id = FRK_the_Queston_of_expansion 
-			#useless event
-		x = 0
+		id = FRK_the_Question_of_expansion 
+		x = 4
 		y = 1
 		
 		cost = 5
@@ -22,99 +21,85 @@ focus_tree = {
 			#pp
 		}
 
-
 		icon = {
 			value = GFX_placeholder 
 		}
 	}
 
     focus = {
+		id = FRK_Rallying_Support
+
 		prerequisite = {
-		focus = FRK_the_Queston_of_expansion                      	
+			focus = 												   FRK_the_Question_of_expansion                      	
 		}
 		x=0
 		y=1
-		relative_position_id =FRK_the_Queston_of_expansion
+
+		relative_position_id =FRK_the_Question_of_expansion
 		cost = 10
 
-		id = FRK_Rallying_Support
-         #stability/warsupport
+        #gives stability/warsupport
 
 		icon = {
 			value = GFX_placeholder 
 		}
 	} 
+
 	focus ={
+		id = FRK_Rallying_the_horde
+
+		relative_position_id=FRK_Rallying_Support
 		prerequisite = {
 			focus = FRK_Rallying_Support 
 		}
-		relative_position_id=FRK_Rallying_Support
-	x=0
-	y=1
 
-	cost=5
+		x=0
+		y=1
+		cost=5
 
-		id = FRK_Rallying_the_horde
-	 	#Manpower/Divisions(Militia) 
+	 	#gives Manpower/Divisions(Militia) 
 
-
-			icon = {
+		icon = {
 			value = GFX_placeholder 
 		}
-
-
-
-
-
 	}
+
 	focus = {
+		id = FRK_organising_the_horde 
+
+		relative_position_id=FRK_Rallying_the_horde
 		prerequisite = {
 			focus = FRK_Rallying_the_horde
 		}
+
 		x=0
 		y=1
-		relative_position_id=FRK_Rallying_the_horde
+
 		cost=5
 
-		id = FRK_organising_the_horde 
 		#Buffs/Equipment 
 
 		icon = {
 			value = GFX_placeholder 
 		}
-
-
-
-
-
-
 	}
 
-focus = {
-	id = FRK_To_WAR
-	#wargoel on Soisoin
-	prerequisite = {
-		 
-	focus = FRK_organising_the_horde
+	focus = {
+		id = FRK_To_WAR
 
-	}
+		relative_position_id = FRK_organising_the_horde 
+		prerequisite = {
+			focus = FRK_organising_the_horde
+		}
 
-	x=0
-	y=1
+		x=0
+		y=1
+		cost=2 
 
-	relative_position_id = FRK_organising_the_horde 
-
-	cost=2 
+		#gives wargoel on soissons
 
 		icon = {
 			value = GFX_placeholder 
 		}
-
-
 	}
-
-
-
 }
-
-	
