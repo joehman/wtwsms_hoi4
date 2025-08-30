@@ -18,7 +18,7 @@ focus_tree = {
     focus = {
         id = SOI_Standing_on_our_own
 
-        x = 5
+        x = 4
         y = 0
 
         cost = 5
@@ -36,6 +36,8 @@ focus_tree = {
 
         relative_position_id = SOI_Standing_on_our_own
 
+        cost = 10
+
         prerequisite = {
             focus = SOI_Standing_on_our_own 
         }
@@ -51,6 +53,8 @@ focus_tree = {
         x = 0
         y = 1
 
+        cost = 10
+
         relative_position_id = SOI_Standing_on_our_own
 
         prerequisite = {
@@ -61,12 +65,15 @@ focus_tree = {
             value = GFX_placeholder
         }
     }
+
     focus = {
         id = SOI_Recover_Industry
 
         x = 2
         y = 1
 
+        cost = 5
+
         relative_position_id = SOI_Standing_on_our_own
 
         prerequisite = {
@@ -78,33 +85,136 @@ focus_tree = {
         }
     }
 
+    focus = {
+        id = SOI_Recover_Industry
 
-    ## Army ##
-    focus = { 
-        id = SOI_frankish_threat
-        x = 13
-        y = 0
+        x = 2
+        y = 1
 
-        cost = 10
+        cost = 5
+
+        relative_position_id = SOI_Standing_on_our_own
+
+        prerequisite = {
+            focus = SOI_Standing_on_our_own 
+        }
         
         icon = {
-            value = GFX_placeholder # change
+            value = GFX_placeholder
+        }
+    }
+
+    focus = {
+        id = SOI_recovered
+
+        x = 0
+        y = 2
+
+        cost = 10
+
+        relative_position_id = SOI_Standing_on_our_own
+
+        prerequisite = {
+            focus = SOI_Recover_Army
+            focus = SOI_Recover_Government
+            focus = SOI_Recover_Industry 
         }
         
-        prerequisite = {
-            
+        icon = {
+            value = GFX_placeholder
         }
+    }
 
-        completion_reward = {
-            SOI = {
-				add_timed_idea = {
-					days = 365
-					idea = SOI_frankish_threat	
-				}
-            }
+    focus = {
+        id = SOI_buildup_industry
+
+        x = 0
+        y = 1
+
+        cost = 5
+
+        relative_position_id = SOI_recovered
+
+        prerequisite = {
+            focus = SOI_recovered
+        }
+        
+        icon = {
+            value = GFX_placeholder
+        }
+    }
+
+    focus = {
+        id = SOI_buildup_army
+
+        x = 3
+        y = 1
+
+        cost = 5
+
+        relative_position_id = SOI_recovered
+
+        prerequisite = {
+            focus = SOI_recovered
+        }
+        
+        icon = {
+            value = GFX_placeholder
         }
     }
 
 
+    ##foreign threats##
+    focus = {
+        id = SOI_face_foreign_threats
 
+        x = -3
+        y = 1
+
+        relative_position_id = SOI_recovered
+
+
+        icon = {
+            value = GFX_placeholder
+        }
+
+        prerequisite = {
+            focus = SOI_recovered 
+        }
+    }
+
+    focus = {
+        id = SOI_visigothic_threat
+
+        y = 1
+        x = -1
+
+        relative_position_id = SOI_face_foreign_threats
+
+
+        icon = {
+            value = GFX_placeholder
+        }
+
+        prerequisite = {
+            focus = SOI_face_foreign_threats
+        }
+    }
+
+    focus = {
+        id = SOI_frankish_threat
+
+        y = 1
+        x = 1
+
+        relative_position_id = SOI_face_foreign_threats
+
+        icon = {
+            value = GFX_placeholder
+        }
+
+        prerequisite = {
+            focus = SOI_face_foreign_threats
+        }
+    }
 }
